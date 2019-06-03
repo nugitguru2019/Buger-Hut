@@ -1,0 +1,25 @@
+{
+  "name": "burger-hut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nugitguru2019/Burger-Hut.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nugitguru2019/Burger-Hut/issues"
+  },
+  "homepage": "https://github.com/nugitguru2019/Burger-Hut#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4"
+  }
+}

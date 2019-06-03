@@ -1,0 +1,453 @@
+/* General Styling */
+
+
+
+* {
+
+    box-sizing: border-box;
+    
+    }
+    
+    
+    
+    html {
+    
+    position: relative;
+    
+    }
+    
+    
+    
+    body {
+    
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b9a03de4-cb99-479f-b2bc-7b1613e15339/dq6gct-a71c7518-7758-4047-9cb3-41c42507689c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I5YTAzZGU0LWNiOTktNDc5Zi1iMmJjLTdiMTYxM2UxNTMzOVwvZHE2Z2N0LWE3MWM3NTE4LTc3NTgtNDA0Ny05Y2IzLTQxYzQyNTA3Njg5Yy5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.tnULam-C6T9uVz_0NQ7EmN49o2gda_7CZTDbSy8fNoE) no-repeat center center fixed;
+    
+        -webkit-background-size: cover;
+    
+        -moz-background-size: cover;
+    
+        -o-background-size: cover;
+    
+    background-size: cover;
+    
+    padding-bottom: 3rem;
+    
+    }
+    
+    
+    
+    h3 {
+    
+    margin: 0;
+    
+    font-family: 'Anton', sans-serif;
+    
+    font-size: 1.3rem;
+    
+    }
+    
+    
+    
+    h2 {
+    
+    margin: 0;
+    
+    font-family: 'Anton', sans-serif;
+    
+    font-size: 1.6rem;
+    
+    color: #008000;
+    
+    text-shadow: .1rem .1rem .2rem #1a1919;
+    
+    }
+    
+    
+    
+    p {
+    
+    margin: 0;
+    
+    }
+    
+    
+    
+    button {
+    
+    background: linear-gradient(#d3d3d3, #808080, #d3d3d3);
+    
+    border: .1rem solid #6e6e6e;
+    
+    border-radius: .5rem;
+    
+    font-family: 'Anton', sans-serif;
+    
+    font-size: .9rem;
+    
+    padding: .5rem;
+    
+    color: #ffffff;
+    
+    box-shadow: .1rem .1rem .2rem #1a1919;
+    
+    }
+    
+    
+    
+    button:hover {
+    
+    background: linear-gradient(#808080, #d3d3d3, #808080);
+    
+    cursor: pointer;
+    
+    }
+    
+    
+    
+    @media only screen and (min-width: 320px) {
+    
+    
+    
+    /* Header Styling */
+    
+    
+    
+    h1 {
+    
+        font-family: 'BioRhyme Expanded', serif;
+    
+        font-size: 1.4rem;
+    
+        text-align: center;
+    
+        text-shadow: .1rem .1rem .4rem #1a1919;
+    
+        margin: 1rem auto 0;
+    
+        color: #008000;
+    
+        padding: .5rem;
+    
+        width: 90%;
+    
+        border: .3rem solid #008000;
+    
+        box-shadow: .1rem .1rem .4rem #1a1919;
+    
+    }
+    
+    
+    
+    /* Burger Columns Styling */
+    
+    
+    
+    main {
+    
+        display: grid;
+    
+        grid-template: auto / 1fr;
+    
+        grid-gap: .8rem;
+    
+        justify-items: center;
+    
+        align-items: center;
+    
+        margin-top: 1rem;
+    
+    }
+    
+    
+    
+    #burger-display {
+    
+        display: grid;
+    
+        grid-template: auto / 1fr;
+    
+        grid-gap: .8rem;
+    
+        width: 90%;
+    
+        color: #008000;
+    
+        text-shadow: .1rem .1rem .2rem #1a1919;
+    
+    }
+    
+    
+    
+    .burger-column {
+    
+        display: grid;
+    
+        grid-template: fit-content(1rem) auto / 1fr;
+    
+        grid-gap: .8rem;
+    
+        justify-items: center;
+    
+        align-items: start;
+    
+    }
+    
+    
+    
+    .burger-list {
+    
+        display: grid;
+    
+        grid-template: minmax(auto, 3rem) / 1fr;
+    
+        font-family: 'Arvo', serif;
+    
+        width: 100%;
+    
+        max-height: 18vh;
+    
+        overflow: auto;
+    
+        margin: 0;
+    
+        padding: 0;
+    
+        box-shadow: .1rem .1rem .2rem #1a1919;
+    
+    }
+    
+    
+    
+    .burger {
+    
+        display: grid;
+    
+        grid-template: auto / 1.5fr 1fr;
+    
+        grid-gap: .8rem;
+    
+        height: 4rem;
+    
+        align-items: center;
+    
+        border-bottom: .1rem solid #000000;
+    
+        padding-left: 1rem;
+    
+        background: linear-gradient(#359928, #38692c, #359928)
+    
+    }
+    
+    
+    
+    .burger-list p {
+    
+        justify-self: start;
+    
+        font-size: .9rem;
+    
+    }
+    
+    
+    
+    .devour {
+    
+        justify-self: center;
+    
+    }
+    
+    
+    
+    .burger:last-child {
+    
+        height: 4rem;
+    
+        border-bottom: none;
+    
+    }
+    
+    
+    
+    .eaten-burger {
+    
+        display: grid;
+    
+        grid-template: auto / 1fr;
+    
+        height: 4rem;
+    
+        align-items: center;
+    
+        border-bottom: .1rem solid #000000;
+    
+        padding-left: 1rem;
+    
+        background: linear-gradient(#d11717, #921313, #d11717)
+    
+    }
+    
+    
+    
+    .eaten-burger:last-child {
+    
+        height: 4rem;
+    
+        border-bottom: none;
+    
+    }
+    
+    
+    
+    /* Form Styling */
+    
+    
+    
+    #burger-name {
+    
+        width: 90%;
+    
+        padding: .5rem;
+    
+        border-radius: .5rem;
+    
+        border: .1rem solid #6e6e6e;
+    
+        box-shadow: .1rem .1rem .2rem #1a1919;
+    
+        font-family: 'Arvo', serif;
+    
+        font-size: .9rem;
+    
+    }
+    
+    
+    
+    #burger-name:hover {
+    
+        border: .1rem solid #008000;
+    
+    }
+    
+    
+    
+    /* Footer Stylng */
+    
+    
+    
+    footer {
+    
+        display: grid;
+    
+        justify-items: center;
+    
+        align-items: center;
+    
+        height: 2rem;
+    
+        width: 100%;
+    
+        border-top: .3rem solid #008000;
+    
+        background: #8e352d;
+    
+        position: fixed;
+    
+        bottom: 0;
+    
+    }
+    
+    
+    
+    footer p {
+    
+        font-family: 'Arvo', serif;
+    
+        font-size: .7rem;
+    
+        color: yellow;
+    
+    }
+    
+    
+    
+    }
+    
+    
+    
+    @media only screen and (min-width: 360px) {
+    
+    h1 {
+    
+        font-size: 1.6rem;
+    
+    }
+    
+    }
+    
+    
+    
+    @media only screen and (min-width: 400px) {
+    
+    h1 {
+    
+        font-size: 1.8rem;
+    
+    }
+    
+    }
+    
+    
+    
+    @media only screen and (min-width: 500px) {
+    
+    h1 {
+    
+        font-size: 2.2rem;
+    
+    }
+    
+    }
+    
+    
+    
+    @media only screen and (min-width: 650px) {
+    
+    
+    
+    h1 {
+    
+        font-size: 3rem;
+    
+        width: 650px;
+    
+    }
+    
+    
+    
+    #burger-display {
+    
+        width: 650px;
+    
+        grid-template: auto / 1fr 1fr;
+    
+    }
+    
+    
+    
+    .burger-list {
+    
+        max-height: 41vh;
+    
+    }
+    
+    
+    
+    #burger-name {
+    
+        width: 650px
+    
+    }
+    
+    
+    
+    }

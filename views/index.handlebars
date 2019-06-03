@@ -1,0 +1,85 @@
+<header>
+
+<h1><Burger-Hut></h1>
+
+</header>
+
+
+
+<main>
+
+  
+
+<section id='burger-display'>
+
+    <div class='burger-column'>
+
+    <h3>New Burgers</h3>
+
+    <ul class="burger-list">
+
+        {{#each burgers}}
+
+            {{#unless devoured}}
+
+                <li class="burger">
+
+                {{> burgers/burgers-block devour=false}}
+
+                <button type='button' class='devour' data-id='{{id}}'>Devour it!</button>
+
+                </li>
+
+            {{/unless}}
+
+        {{/each}}
+
+    </ul>
+
+    </div>
+
+    
+
+    <div class='burger-column'>
+
+    <h3>Devoured Burgers</h3>
+
+    <ul class='burger-list'>
+
+        {{#each burgers}}
+
+        {{#if devoured}}
+
+            <li class="eaten-burger">
+
+            {{> burgers/burgers-block devour=true}}
+
+            </li>
+
+        {{/if}}
+
+        {{/each}}
+
+    </ul>
+
+    </div>
+
+</section>
+
+  
+
+<h2>Design Your Own Burger!</h2>
+
+<textarea id='burger-name' placeholder='Describe your burger here'></textarea>
+
+<button type='submit' id='submit'>Add It to the Menu</button>
+
+</main>
+
+
+
+<footer>
+
+<p>&copy;2019 Moh</p>
+
+</footer>
