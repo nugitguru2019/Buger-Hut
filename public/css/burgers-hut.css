@@ -56,9 +56,9 @@
     
     font-size: 1.6rem;
     
-    color: #008000;
+    color: #d11717;
     
-    text-shadow: .1rem .1rem .2rem #1a1919;
+    text-shadow: .1rem .1rem .2rem #f5f1f1;
     
     }
     
@@ -76,7 +76,7 @@
     
     background: linear-gradient(#d3d3d3, #808080, #d3d3d3);
     
-    border: .1rem solid #6e6e6e;
+    border: .1rem solid #ffff00;
     
     border-radius: .5rem;
     
@@ -120,19 +120,19 @@
     
         text-align: center;
     
-        text-shadow: .1rem .1rem .4rem #1a1919;
+        text-shadow: .1rem .1rem .4rem #fd1d1d;
     
         margin: 1rem auto 0;
     
         color: #008000;
     
-        padding: .5rem;
+        padding: 1rem;
     
         width: 90%;
     
-        border: .3rem solid #008000;
+        border: .3rem solid #ffff00;
     
-        box-shadow: .1rem .1rem .4rem #1a1919;
+        box-shadow: .1rem .1rem .4rem #d11717;
     
     }
     
@@ -170,9 +170,9 @@
     
         width: 90%;
     
-        color: #008000;
+        color: #d11717;
     
-        text-shadow: .1rem .1rem .2rem #1a1919;
+        text-shadow: .1rem .1rem .2rem #ebe5e5;
     
     }
     
@@ -230,11 +230,11 @@
     
         align-items: center;
     
-        border-bottom: .1rem solid #000000;
+        border-bottom: .1rem solid #008000;
     
         padding-left: 1rem;
     
-        background: linear-gradient(#359928, #38692c, #359928)
+        background: linear-gradient(rgb(250, 246, 246), #ffffff, #ccd8ca)
     
     }
     
@@ -278,11 +278,11 @@
     
         align-items: center;
     
-        border-bottom: .1rem solid #000000;
+        border-bottom: .1rem solid #d11717;
     
         padding-left: 1rem;
     
-        background: linear-gradient(#d11717, #921313, #d11717)
+        background: linear-gradient(#ffff00, #ffff00, #ffff00)
     
     }
     
@@ -310,7 +310,7 @@
     
         border-radius: .5rem;
     
-        border: .1rem solid #6e6e6e;
+        border: .1rem solid #d11717;
     
         box-shadow: .1rem .1rem .2rem #1a1919;
     
@@ -324,7 +324,7 @@
     
     #burger-name:hover {
     
-        border: .1rem solid #008000;
+        border: .1rem solid #d11717;
     
     }
     
@@ -346,9 +346,9 @@
     
         width: 100%;
     
-        border-top: .3rem solid #008000;
+        border-top: .3rem solid #d11717;
     
-        background: #8e352d;
+        background: #ffff00;
     
         position: fixed;
     
@@ -364,7 +364,7 @@
     
         font-size: .7rem;
     
-        color: yellow;
+        color: #008000;
     
     }
     
