@@ -1,1 +1,1 @@
-# Buger-Hut
+# Burger-Hut
