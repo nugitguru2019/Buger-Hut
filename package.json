@@ -1,5 +1,5 @@
 {
-  "name": "buger-hut",
+  "name": "burger-hut",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nugitguru2019/Buger-Hut.git"
+    "url": "git+https://github.com/nugitguru2019/Burger-Hut.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nugitguru2019/Buger-Hut/issues"
+    "url": "https://github.com/nugitguru2019/Burger-Hut/issues"
   },
-  "homepage": "https://github.com/nugitguru2019/Buger-Hut#readme",
+  "homepage": "https://github.com/nugitguru2019/Burger-Hut#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "dotenv": "^8.0.0",
@@ -24,5 +24,6 @@
     "express-handlebars": "^3.1.0",
     "handlebars": "^4.1.2",
     "mysql": "^2.17.1"
-  }
+  },
+  "devDependencies": {}
 }
