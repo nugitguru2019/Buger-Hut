@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/nugitguru2019/Burger-Hut#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "dotenv": "^8.0.0",
     "express": "^4.16.4",
     "express-handlebars": "^3.1.0",
